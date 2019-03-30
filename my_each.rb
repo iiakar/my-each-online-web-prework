@@ -1,5 +1,5 @@
 def my_each
-  file = File.read('./my_each.rb')
+ end
 
   it "does not call on .each" do
     expect(file).to_not include(".each")
